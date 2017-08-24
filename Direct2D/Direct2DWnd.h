@@ -1,7 +1,7 @@
 #pragma once
 
 // An abstract base class for a Direct2D-painted window.
-// Most parts are from there: https://msdn.microsoft.com/en-us/library/windows/desktop/dd370994(v=vs.85).aspx#part1
+// Most parts are from there: https://msdn.microsoft.com/en-us/library/windows/desktop/dd370994(v=vs.85).aspx
 class CDirect2DWnd:
 	public CWindowImpl<CDirect2DWnd, CWindow, CFrameWinTraits>
 {
