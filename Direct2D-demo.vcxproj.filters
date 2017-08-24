@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="DemoApp.h" />
+    <ClInclude Include="Direct2D\Direct2DWnd.h">
+      <Filter>Direct2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="DemoApp.cpp" />
+    <ClCompile Include="Direct2D\Direct2DWnd.cpp">
+      <Filter>Direct2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Winmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Direct2D-demo.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Direct2D-demo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Direct2D">
+      <UniqueIdentifier>{1795d064-cb31-4095-b9ba-922cc4086189}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

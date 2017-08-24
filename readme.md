@@ -1,0 +1,1 @@
+# Direct2D DemoThis project implements a quick start sample for a Direct2D-painted Win32 window.The functionality is similar to [the Microsoft’s sample](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370994(v=vs.85).aspx).However, unlike that sample, this one doesn’t crash in 64-bit builds. Also it uses ATL, which simplifies Win32 parts of the app.

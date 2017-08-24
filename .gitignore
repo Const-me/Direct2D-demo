@@ -1,0 +1,8 @@
+/.vs/
+/Debug/
+/x64/
+Direct2D-demo.aps
+Direct2D-demo.VC.VC.opendb
+Direct2D-demo.VC.db
+/ipch/
+*.user
